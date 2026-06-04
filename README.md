@@ -12,7 +12,15 @@ React frontend for a todo application with full CRUD support.
 
 ## Prerequisites
 
-Backend API must be running at `http://localhost:5000`.
+Backend API must be running. The default endpoint is `http://localhost:5000`.
+
+## Configuration
+
+| Variable | Default | Description |
+|----------|---------|-------------|
+| `VITE_API_BASE_URL` | `http://localhost:5000` | Backend API base URL |
+
+Copy `.env.example` to `.env` and adjust as needed. For local overrides, use `.env.local` (not committed to git).
 
 ## Getting Started
 
