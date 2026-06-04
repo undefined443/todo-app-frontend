@@ -1,7 +1,11 @@
 {
-  "name": "frontend",
+  "name": "todo-app-frontend",
+  "description": "React + Zustand + Tailwind CSS v4 todo application frontend",
+  "keywords": ["react", "zustand", "tailwindcss", "vite", "todo"],
+  "license": "MIT",
+  "author": "Xiao Li <xiaoli3397@gmail.com>",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
